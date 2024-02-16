@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', cursive;
+}
+
+/* navbar */
+ nav {
+    display: flex;
+    background-color: rgb(134, 101, 103);
+    justify-content: space-around;
+    padding: 20px 0;
+    color: rgb(214, 207, 207);
+ }
+
+ .nav-logo { 
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    letter-spacing: 3px;
+ }
+
+ nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+ } 
+
+ nav ul li a {
+    color: rgb(214, 207, 207);
+    text-decoration: none;
+    font-size: 15px;
+ }
+
+ nav ul li a:hover  {
+    color: rgb(41, 39, 39);
+ }
+
+ /* tiga*/
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+}
+
+
+ .menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: rgb(214, 207, 207);
+    border-radius: 3px;
+ }
+
+
+ /* RESPOSIVE  */
+
+ /* UKURAN TEBEL */
+/* @media screen and (max-width: 768px) { */
+    /* nav ul { */
+        /* width: 50%; */
+    /* } */
+/* } */
+
+ /* ukuran mobILE */
+ /* @media screen and (max-width: 576px) { */
+    /* nav ul { */
+        /* display: none; */
+    /* } */
+/* } */
